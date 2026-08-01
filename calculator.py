@@ -6,8 +6,8 @@
 
 #Float
 
-x = float(input("What is x? "))
-y = float(input("What is y? "))
+#x = float(input("What is x? "))
+#y = float(input("What is y? "))
 
 
 #round
@@ -17,6 +17,18 @@ y = float(input("What is y? "))
 #print(f"{z:,}")
 
 
-z = x / y
+#z = x / y
 
-print(f"{z:.2f}")
+#print(f"{z:.2f}")
+
+
+
+def main():
+    x = int(input('What is x?'))
+    print("x squared is,", square(x))
+    
+    
+def square(n):
+    return n * n
+    
+main()
