@@ -11,5 +11,7 @@ y = float(input("What is y? "))
 
 
 #round
-z= round(x + y)
-print(z)
+z = round(x + y)
+
+#Specify commas in numbers
+print(f"{z:,}")
