@@ -12,5 +12,15 @@ print(name)
 print("Hello 'Friend'")
 print("Hello \"Friend\"")
 
+#removes whitespace from string
+name = name.strip()
+
+#capitalises the users first name
+name = name.capitalize()
+
+#capitalises the users name
+name = name.title()
+
 #Print Format strings
 print(f"Hello, {name}")
+
