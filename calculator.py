@@ -17,6 +17,6 @@ y = float(input("What is y? "))
 #print(f"{z:,}")
 
 
-z = round(x / y, 2)
+z = x / y
 
-print(z)
+print(f"{z:.2f}")
